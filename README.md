@@ -78,6 +78,8 @@ this works for interactions too by calling `interaction.messages` which will fet
 -----------------------
 ## Project Setup
 
+before everything rename `.env.example` to `.env` and set `DATABASE_URL` 
+
 ### Easy Setup:
 ```
 docker build -t ifs-ai-api .
