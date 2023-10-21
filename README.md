@@ -9,7 +9,7 @@
 
 ## Project Structure:
 
-- 📁 db: contains session dependency and sqlmodel engine 
+- 📁 db: contains session dependency and SQLModel engine 
 - 📁 models: contains all Models Definitions 
 - 📁 routers: contains all project routers
 - 📁 providers : G4F Provider Implementation
@@ -107,7 +107,7 @@ poetry run uvicorn main:app --reload # spawn uvicorn with autoreload
 
 --------
 ## Run Tests
-
+we are using integration testing approach to test our which means we do api calls and put data into the database then we assert responses.
 To run tests go into the root directory if you never ran project before you need to run it so `SQLModel` initiate the tables into the database then run command below:
 
 ```bash
