@@ -6,6 +6,7 @@
 - SQLModel
 - G4F (Gpt 4 Free)
 
+PS: couldn't use python 3.12 because several python dependencies (G4F, SQLModel) didn't support python 3.12 yet 
 
 ## Project Structure:
 
