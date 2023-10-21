@@ -1,0 +1,6 @@
+services:
+  ifs-api:
+    container_name: ifs-api
+    build: .
+    ports:
+      - "8000:8000"
